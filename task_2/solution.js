@@ -43,16 +43,15 @@ let discountSum = calcDiscount(sum, discountMinSum, discountPart);
     // Задача №2.3. Рассчитать скидки и доставку в корзине
 
 let totalSum;
-totalSum = productsSum - discountSum;
+totalSum = productsSum
+totalSum = totalSum - discountSum;
 
 let shippingSum = calcShipping(totalSum, shippingFreeMinSum, shippingPrice); // не изменяйте эту строку!!!
 
-totalSum = productsSum + shippingSum;
+totalSum = totalSum + shippingSum;
 
 let freeShipping;
-let shippingSum = 0;
-let freeShipping = true;
-let freeShipping = shippingSum === 0;
+    freeShipping = shippingSum === 0;
 
     // Конец решения задачи №2.3.
 
