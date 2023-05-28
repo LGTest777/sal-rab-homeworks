@@ -3,7 +3,7 @@ function renderCartItem(item) {
 
     // Задание №3.1. Формирование строки корзины
 
-    item = {id: id, title: title, count: count, price: price}
+    product = {id: id, title: title, count: count, price: price}
 
     let itemCountText = "";
     itemCountText = itemCountText + product.count; 
